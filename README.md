@@ -277,22 +277,6 @@ Ensure you have the following installed:
 
 ---
 
-## 🧪 Running Tests
-
-### Backend
-```bash
-cd backend(R)
-python manage.py test
-```
-
-### Frontend
-```bash
-cd frontend
-npm run lint
-```
-
----
-
 ## 📄 License
 
 This project was created as an assignment for **ASCENTech**.
