@@ -291,9 +291,9 @@ This project was created as an assignment for **ASCENTech**.
 
 ## 🙏 Acknowledgments
 
-- Next.js Documentation
-- Django REST Framework
-- Tailwind CSS
-- Simple JWT for Django
-- Gemini AI
-- Git
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Django REST Framework](https://www.django-rest-framework.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Simple JWT for Django](https://django-rest-framework-simplejwt.readthedocs.io/)
+- [Gemini AI](https://gemini.google.com/)
+- [Git](https://git-scm.com/)
