@@ -1,6 +1,6 @@
 # 🚀 ASCENTech Workspace
 
-A full-stack **Project & Task Management Application** built as an assignment for AscentTech. This application allows users to register, login, create projects, and manage tasks with status tracking — all with a modern, responsive UI.
+A full-stack **Project & Task Management Application** built as an assignment for ASCENTech. This application allows users to register, login, create projects, and manage tasks with status tracking — all with a modern, responsive UI.
 
 ---
 
