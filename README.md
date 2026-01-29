@@ -75,7 +75,7 @@ A full-stack **Project & Task Management Application** built as an assignment fo
 ## 📂 Project Structure
 
 ```
-AscentTech_Assignment/
+ASCENTech_Assignment/
 ├── frontend/                    # Next.js Frontend Application
 │   ├── app/                     # App Router pages
 │   │   ├── dashboard/           # Dashboard page
@@ -91,7 +91,8 @@ AscentTech_Assignment/
 │   │   ├── page.tsx             # Home page
 │   │   └── globals.css          # Global styles
 │   ├── components/              # Reusable UI components
-│   │   ├── Navbar.tsx           # Navigation bar
+│   │   ├── AuthNavbar.tsx       # Navigation bar for auth pages
+│   │   ├── Navbar.tsx           # Main navigation bar (dashboard)
 │   │   └── StatCard.tsx         # Statistics card component
 │   ├── services/                # API service functions
 │   │   ├── auth.ts              # Authentication services
@@ -224,15 +225,18 @@ Ensure you have the following installed:
 
 ## 📸 Screenshots
 
-> Add screenshots of your application here to showcase the UI.
+> Screenshots of the application to showcase the UI.
 
 ### Login Page
+![Login Page](./screenshots/login.png)
 *Clean, minimal login interface*
 
 ### Dashboard
+![Dashboard](./screenshots/dashboard.png)
 *Overview of all projects with statistics*
 
 ### Project Details
+![Project Details](./screenshots/project_details.png)
 *Task management with status updates*
 
 ---
@@ -291,13 +295,13 @@ npm run lint
 
 ## 📄 License
 
-This project was created as an assignment for **AscentTech**.
+This project was created as an assignment for **ASCENTech**.
 
 ---
 
 ## 👤 Author
 
-**Rishi**
+**Rishi Padala**
 
 ---
 
@@ -307,3 +311,5 @@ This project was created as an assignment for **AscentTech**.
 - Django REST Framework
 - Tailwind CSS
 - Simple JWT for Django
+- Gemini AI
+- Git
