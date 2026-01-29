@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: #ffffff;
+}
+
+/* --- Custom Classes --- */
+.input-field {
+  @apply w-full p-3 border border-gray-200 rounded-lg outline-none transition-all duration-200;
+}
+
+.input-field:focus {
+  @apply border-black ring-1 ring-black;
+}
+
+.btn-primary {
+  @apply w-full bg-black text-white p-3 rounded-lg font-medium hover:bg-gray-800 transition-colors disabled:opacity-50;
+}
