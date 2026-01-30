@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     # Third party libraries
     'rest_framework',
     'corsheaders',
+    'drf_spectacular',
     
     # Your Apps
     'users',
@@ -141,7 +142,27 @@ CORS_ALLOW_ALL_ORIGINS = True
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework_simplejwt.authentication.JWTAuthentication',
-    )
+    ),
+    'DEFAULT_SCHEMA_CLASS': 
+    'drf_spectacular.openapi.AutoSchema',
+}
+
+# drf-spectacular settings
+SPECTACULAR_SETTINGS = {
+    'TITLE': 'ASCENTech WorkSpace APIs',
+    'DESCRIPTION': 'A Project & Task Management REST API. This documentation provides a detailed overview of all available endpoints. Made by Rishi Padala',
+    'VERSION': '1.0.0',
+    'SERVE_INCLUDE_SCHEMA': False,
+    'CONTACT': {
+        'name': 'Rishi Padala',
+        'url': 'https://github.com/rishipadala',
+        'email': 'rishipadala333@gmail.com',
+    },
+    'TAGS': [
+        {'name': 'Authentication', 'description': 'User Registration & JWT Token Management'},
+        {'name': 'Projects', 'description': 'Create, Read, Update & Delete Projects'},
+        {'name': 'Tasks', 'description': 'Create, Read, Update & Delete Tasks within Projects'},
+    ],
 }
 
 # 3. JWT Settings (Optional: Extend token life for testing)

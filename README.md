@@ -14,6 +14,7 @@ A full-stack **Project & Task Management Application** built as an assignment fo
   - [Backend Setup](#backend-setup)
   - [Frontend Setup](#frontend-setup)
 - [API Endpoints](#-api-endpoints)
+- [API Documentation](#-api-documentation)
 - [Screenshots](#-screenshots)
 - [License](#-license)
 
@@ -160,7 +161,7 @@ Ensure you have the following installed:
 
 3. **Install dependencies:**
    ```bash
-   pip install django djangorestframework djangorestframework-simplejwt django-cors-headers
+   pip install django djangorestframework djangorestframework-simplejwt django-cors-headers drf-spectacular
    ```
 
 4. **Run database migrations:**
@@ -220,6 +221,33 @@ Ensure you have the following installed:
 | GET | `/api/tasks/{id}/` | Get task details |
 | PATCH | `/api/tasks/{id}/` | Update task (e.g., status) |
 | DELETE | `/api/tasks/{id}/` | Delete a task |
+
+---
+
+## 📖 API Documentation
+
+This project includes interactive API documentation powered by **drf-spectacular**:
+
+| Documentation | URL | Description |
+|---------------|-----|-------------|
+| **Swagger UI** | `/swagger/` | Interactive API explorer with try-it-out functionality |
+| **ReDoc** | `/redoc/` | Clean, responsive API documentation |
+| **OpenAPI Schema** | `/api/schema/` | Raw OpenAPI 3.0 JSON schema |
+
+### Accessing the Documentation
+
+1. Start the backend server:
+   ```bash
+   python manage.py runserver
+   ```
+
+2. Visit the documentation URLs:
+   - **Swagger UI**: [http://127.0.0.1:8000/swagger/](http://127.0.0.1:8000/swagger/)
+   - **ReDoc**: [http://127.0.0.1:8000/redoc/](http://127.0.0.1:8000/redoc/)
+
+### Swagger UI Preview
+![Swagger UI](./screenshots/swagger.png)
+*Interactive API documentation with all endpoints*
 
 ---
 
